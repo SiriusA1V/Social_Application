@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.p-event-top__contents {
+        padding-bottom: 20px;
+    }
+
+.p-event-top__contents__reservation-event__title, .p-event-top__contents__group-event__title, .p-event-top__contents__event-list__title {
+                padding: 30px 10px 16px;
+            }

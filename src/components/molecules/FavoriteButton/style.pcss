@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+.m-favorite-button {
+    &--animation {
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0;
+        width: 100px;
+        animation-name: favorite;
+        animation-duration: 1s;
+        animation-direction: normal, reverse;
+        transition-timing-function: ease;
+    }
+}
+
+@keyframes favorite {
+    0% {
+        opacity: 0.5;
+        z-index: 1000;
+        transform: scale(1);
+    }
+    70% {
+        opacity: 1;
+        z-index: 1000;
+        transform: scale(1.2)
+    }
+    100% {
+        opacity: 0;
+        z-index: 1000;
+        transform: scale(0.3);
+    }
+}

@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.m-favorite-button--animation {
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0;
+        width: 100px;
+        -webkit-animation-name: favorite;
+                animation-name: favorite;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+        animation-direction: normal, reverse;
+        -webkit-transition-timing-function: ease;
+                transition-timing-function: ease;
+    }
+
+@-webkit-keyframes favorite {
+    0% {
+        opacity: 0.5;
+        z-index: 1000;
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    70% {
+        opacity: 1;
+        z-index: 1000;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2)
+    }
+    100% {
+        opacity: 0;
+        z-index: 1000;
+        -webkit-transform: scale(0.3);
+                transform: scale(0.3);
+    }
+}
+
+@keyframes favorite {
+    0% {
+        opacity: 0.5;
+        z-index: 1000;
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    70% {
+        opacity: 1;
+        z-index: 1000;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2)
+    }
+    100% {
+        opacity: 0;
+        z-index: 1000;
+        -webkit-transform: scale(0.3);
+                transform: scale(0.3);
+    }
+}

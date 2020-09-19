@@ -1,0 +1,199 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+
+.p-event-detail {
+    &__modal {
+        width: 90vw;
+        padding: 0 16px;
+    }
+    &__header {
+        padding: 16px 0 0;
+        &__open {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 4px;
+            &__icon-tag {
+                padding: 0 0.5em;
+                &__icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 16px;
+                }
+                &__text {
+                    display: inline-block;
+                    vertical-align: text-top;
+                    padding-right: 4px;
+                }
+            }
+        }
+        &__today {
+            &__tag {
+                display: inline-block;
+                vertical-align: text-bottom;
+                padding: 0.1em 1em;
+                margin-right: 6px;
+            }
+        }
+        &__month {
+            font-size: 0.913em;
+            font-weight: 700;
+        }
+        &__day {
+            line-height: 1;
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+        &__today {
+            font-size: 0.613em;
+            font-weight: 700;
+        }
+        &__tag {
+            padding-left: 8px;
+        }
+    }
+    &__title {
+        padding: 0 8px 4px;
+        &__titleText {
+            padding: 18px 18px 8px;
+            font-size: 1.12em;
+        }
+        &__subText {
+            padding: 0;
+            font-size: 0.95em;
+        }
+    }
+    &__contents {
+        padding: 0 24px;
+        &__active {
+            padding: 18px 0px;
+            margin: 0 -10px;
+            display: flex;
+            justify-content: center;
+            &__edit,
+            &__entry,
+            &__favorite,
+            &__share {
+                margin: 0 10px;
+                flex: 0 0 70px;
+                -webkit-transform: unset;
+                &__text {
+                    margin: 0;
+                    font-size: .75em;
+                    line-height: 1;
+                }
+                &__icon {
+                    margin-top: -6px;
+                }
+            }
+        }
+        &__explan {
+            font-size: .88em;
+        }
+        &__tag {
+            padding-top: 10px;
+            font-size: .88em;
+        }
+        &__date {
+            &__heading {
+                padding: 0;
+                padding-top: 18px;
+                font-size: 0.713em;
+            }
+            &__text {
+                font-size: .813em;
+            }
+        }
+        &__place {
+            &__text {
+                margin: 0;
+                padding-bottom: 4px;
+                font-size: .813em;
+            }
+            &__heading {
+                padding: 0;
+                padding-top: 18px;
+                font-size: 0.713em;
+            }
+            &__img {
+                width: 100%;
+            }
+        }
+        &__group {
+            &__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+            &__info {
+                display: inline-flex;
+                &__name {
+                    padding: 0 8px;
+                    line-height: 2.5;
+                    font-size: .813em;
+                }
+            }
+        }
+        &__leader {
+            &__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+            &__info {
+                display: inline-flex;
+                &__name {
+                    padding: 0 8px;
+                    line-height: 2.5;
+                    font-size: .813em;
+                }
+            }
+        }
+        &__entry {
+            &__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+            &__list {
+                display: inline-flex;
+                &__item {
+                    margin-right: 4px;
+                }
+                &__text {
+                    line-height: 2.6;
+                    padding-left: 8px;
+                    font-size: .813em;
+                }
+            }
+        }
+        &__interest {
+            &__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+            &__text {
+                margin: 0;
+                font-size: .813em;
+            }
+        }
+        &__active-button {
+            padding: 18px 0;
+            &__reserve {
+                padding-bottom: 12px;
+            }
+        }
+    }
+
+    .ohaco-a-button--iconButton.ohaco-a-button--large {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ohaco-a-button--iconButton.ohaco-a-button--x-small {
+        width: 12px;
+        height: 12px;
+    }
+
+    .ohaco-a-modal__close {
+        top: 2px;
+        right: 4px;
+    }
+}

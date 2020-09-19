@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+
+.m-line-card-event {
+    > div {
+        padding-right: 20px;
+    }
+    &__datetime {
+        font-weight: 700;
+        &__month {
+            font-size: .813em;
+        }
+        &__day {
+            display: inline-block;
+            vertical-align: baseline;
+            font-size: 1.1em;
+        }
+        &__today {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.713em;
+        }
+        &__time {
+            font-size: .813em;
+            padding: 0 8px 0 4px;
+        }
+        &__open {
+            display: inline-block;
+            vertical-align: text-bottom;
+            margin-left: 4px;
+            &__icon-tag {
+                padding: 0 0.5em;
+                &__icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 16px;
+                }
+                &__text {
+                    display: inline-block;
+                    vertical-align: text-top;
+                    padding-right: 4px;
+                }
+            }
+        }
+        &__today {
+            &__tag {
+                display: inline-block;
+                vertical-align: text-bottom;
+                padding: 0.1em 1em;
+            }
+        }
+    }
+    &__title {
+        padding: 2px 0;
+        font-weight: 700;
+        font-size: .913em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 84vw;
+    }
+    &__store {
+        font-size: .813em;
+    }
+}

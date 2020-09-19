@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.m-line-card-checkbox .ohaco-a-label__form {
+        padding-right: 8px;
+    }
+
+.m-line-card-checkbox__label {
+        height: 89px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+.m-line-card-checkbox__label__content {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+
+.m-line-card-checkbox__text {
+        padding-left: 18px;
+        font-size: .938em;
+        font-weight: 700;
+    }

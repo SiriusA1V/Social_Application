@@ -1,0 +1,59 @@
+.p-event-invite-member {
+    padding-bottom: 68px;
+    &__button {
+        bottom: 10px;
+        padding: 20px;;
+    }
+    &__list {
+        &__members {
+            height: 100px;
+            &__ul {
+                display: flex;
+                width: 100%;
+                padding: 16px;
+                margin: 0;
+                list-style: none;
+                overflow-x: auto;
+            }
+            &__li {
+                position: relative;
+                padding-right: 10px;
+                text-align: center;
+                &__thumbnail {
+                    display: block;
+                    margin: 0 auto 8px;
+                }
+                &__span {
+                    display: block;
+                    width: 62px;
+                    height: 1em;
+                    margin: 0 auto;
+                    line-height: 1;
+                    font-size: .625em;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                &__button {
+                    position: absolute;
+                    top: 0;
+                    right: 8px;
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 9999px;
+                }
+            }
+        }
+        &__search {
+            &__ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            &__textfield {
+                padding: 10px;
+            }
+        }
+    }
+}

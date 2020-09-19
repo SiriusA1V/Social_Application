@@ -1,0 +1,80 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+
+.p-event-edit-tag {
+    &__contents {
+        min-height: 617px;
+        &__choice-tag {
+            height: 150px;
+            overflow: scroll;
+            padding: 8px;
+            &--no-data {
+                height: 150px;
+                overflow: scroll;
+                padding: 8px;
+                text-align: center;
+            }
+            &__items {
+                position: relative;
+                padding: 6px 36px 6px 10px;
+                margin: 8px;
+                margin-left: 0;
+                min-height: 34px;
+                height: auto;
+                .ohaco-a-button__text {
+                    font-size: 1em;
+                    word-break: break-word;
+                    line-height: 1;
+                }
+                &__cancel {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translate(-50%, -50%);
+                    &__icon {
+                        width: 12px;
+                    }
+                }
+            }
+        }
+        &__search-tag {
+
+        }
+        &__add {
+            padding: 0 12px;
+            height: 34px;
+            margin: 8px;
+            margin-left: 0;
+            &__contents {
+                display: inline-flex;
+                &__icon {
+                    line-height: 3;
+                }
+                &__text {
+                    margin: 0;
+                    padding: 0px 6px;
+                    line-height: 2.5;
+                }
+            }
+        }
+        &__no-Data-tag {
+            padding: 30px 0;
+            &__text {
+                line-height: 1;
+                margin: 0;
+            }
+            &__icon {
+                width: 12%;
+            }
+        }
+    }
+    /* 完了ボタン */
+    &__submit {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 10% 17%;
+    }
+}

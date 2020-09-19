@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+
+.o-event-edit-tag-search {
+    &__search-area {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        &__textfield {
+            width: 80%;
+            flex: 1 1;
+            .ohaco-a-text-field__right {
+                min-width: 16px;
+            }
+        }
+        &__cancel {
+            flex: 0 0 80px;
+            text-align: right;
+        }
+    }
+    &__result-area {
+        max-height: 250px;
+        overflow: scroll;
+    }
+    &__new-tag {
+        font-weight: 500;
+        font-size: 0.93em;
+    }
+}

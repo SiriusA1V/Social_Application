@@ -1,0 +1,69 @@
+@charset 'UTF-8';
+
+@import '../../settings.pcss';
+
+.p-event-search {
+    &__input {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        justify-content: space-between;
+        &__form {
+            flex: 1 0;
+            position: relative;
+            &__field {
+                display: flex;
+            }
+            &__clear {
+                position: absolute;
+                right: 12px;
+                top: 0;
+                bottom: 0;
+                display: block;
+                margin: auto 0;
+            }
+        }
+        &__cancel {
+            text-align: center;
+            padding-left: 10px;
+            line-height: 1;
+            .ohaco-a-button {
+                padding: 0;
+            }
+        }
+    }
+
+    &__list-area {
+        &__heading {
+            padding: 20px 10px;
+        }
+        &__list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            &__no-result {
+                padding: 30px 20px;
+                text-align: center;
+                &__icon {
+                    > svg {
+                        width: 30%;
+                    }
+                }
+                &__text {
+                    &__bold {
+                        display: inherit;
+                        font-size: 1.125em;
+                        font-weight: 700;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        &__delete {
+            text-align: right;
+            &__button {
+                padding: 0 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.p-event-search__input {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 12px;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+.p-event-search__input__form {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 0;
+                    flex: 1 0;
+            position: relative;
+        }
+
+.p-event-search__input__form__field {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+            }
+
+.p-event-search__input__form__clear {
+                position: absolute;
+                right: 12px;
+                top: 0;
+                bottom: 0;
+                display: block;
+                margin: auto 0;
+            }
+
+.p-event-search__input__cancel {
+            text-align: center;
+            padding-left: 10px;
+            line-height: 1;
+        }
+
+.p-event-search__input__cancel .ohaco-a-button {
+                padding: 0;
+            }
+
+.p-event-search__list-area__heading {
+            padding: 20px 10px;
+        }
+
+.p-event-search__list-area__list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+.p-event-search__list-area__list__no-result {
+                padding: 30px 20px;
+                text-align: center;
+            }
+
+.p-event-search__list-area__list__no-result__icon > svg {
+                        width: 30%;
+                    }
+
+.p-event-search__list-area__list__no-result__text__bold {
+                        display: inherit;
+                        font-size: 1.125em;
+                        font-weight: 700;
+                        overflow: hidden;
+                    }
+
+.p-event-search__list-area__delete {
+            text-align: right;
+        }
+
+.p-event-search__list-area__delete__button {
+                padding: 0 20px;
+            }

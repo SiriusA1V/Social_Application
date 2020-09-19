@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.o-event-edit-tag-search__search-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 8px 12px;
+    }
+
+.o-event-edit-tag-search__search-area__textfield {
+            width: 80%;
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1;
+                    flex: 1 1;
+        }
+
+.o-event-edit-tag-search__search-area__textfield .ohaco-a-text-field__right {
+                min-width: 16px;
+            }
+
+.o-event-edit-tag-search__search-area__cancel {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 80px;
+                    flex: 0 0 80px;
+            text-align: right;
+        }
+
+.o-event-edit-tag-search__result-area {
+        max-height: 250px;
+        overflow: scroll;
+    }
+
+.o-event-edit-tag-search__new-tag {
+        font-weight: 500;
+        font-size: 0.93em;
+    }

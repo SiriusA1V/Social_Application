@@ -1,0 +1,247 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.p-event-detail__modal {
+        width: 90vw;
+        padding: 0 16px;
+    }
+
+.p-event-detail__header {
+        padding: 16px 0 0;
+    }
+
+.p-event-detail__header__open {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 4px;
+        }
+
+.p-event-detail__header__open__icon-tag {
+                padding: 0 0.5em;
+            }
+
+.p-event-detail__header__open__icon-tag__icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 16px;
+                }
+
+.p-event-detail__header__open__icon-tag__text {
+                    display: inline-block;
+                    vertical-align: text-top;
+                    padding-right: 4px;
+                }
+
+.p-event-detail__header__today__tag {
+                display: inline-block;
+                vertical-align: text-bottom;
+                padding: 0.1em 1em;
+                margin-right: 6px;
+            }
+
+.p-event-detail__header__month {
+            font-size: 0.913em;
+            font-weight: 700;
+        }
+
+.p-event-detail__header__day {
+            line-height: 1;
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+
+.p-event-detail__header__today {
+            font-size: 0.613em;
+            font-weight: 700;
+        }
+
+.p-event-detail__header__tag {
+            padding-left: 8px;
+        }
+
+.p-event-detail__title {
+        padding: 0 8px 4px;
+    }
+
+.p-event-detail__title__titleText {
+            padding: 18px 18px 8px;
+            font-size: 1.12em;
+        }
+
+.p-event-detail__title__subText {
+            padding: 0;
+            font-size: 0.95em;
+        }
+
+.p-event-detail__contents {
+        padding: 0 24px;
+    }
+
+.p-event-detail__contents__active {
+            padding: 18px 0px;
+            margin: 0 -10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+
+.p-event-detail__contents__active__edit,
+            .p-event-detail__contents__active__entry,
+            .p-event-detail__contents__active__favorite,
+            .p-event-detail__contents__active__share {
+                margin: 0 10px;
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 70px;
+                        flex: 0 0 70px;
+                -webkit-transform: unset;
+            }
+
+.p-event-detail__contents__active__edit__text, .p-event-detail__contents__active__entry__text, .p-event-detail__contents__active__favorite__text, .p-event-detail__contents__active__share__text {
+                    margin: 0;
+                    font-size: .75em;
+                    line-height: 1;
+                }
+
+.p-event-detail__contents__active__edit__icon, .p-event-detail__contents__active__entry__icon, .p-event-detail__contents__active__favorite__icon, .p-event-detail__contents__active__share__icon {
+                    margin-top: -6px;
+                }
+
+.p-event-detail__contents__explan {
+            font-size: .88em;
+        }
+
+.p-event-detail__contents__tag {
+            padding-top: 10px;
+            font-size: .88em;
+        }
+
+.p-event-detail__contents__date__heading {
+                padding: 0;
+                padding-top: 18px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__date__text {
+                font-size: .813em;
+            }
+
+.p-event-detail__contents__place__text {
+                margin: 0;
+                padding-bottom: 4px;
+                font-size: .813em;
+            }
+
+.p-event-detail__contents__place__heading {
+                padding: 0;
+                padding-top: 18px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__place__img {
+                width: 100%;
+            }
+
+.p-event-detail__contents__group__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__group__info {
+                display: -webkit-inline-box;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+            }
+
+.p-event-detail__contents__group__info__name {
+                    padding: 0 8px;
+                    line-height: 2.5;
+                    font-size: .813em;
+                }
+
+.p-event-detail__contents__leader__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__leader__info {
+                display: -webkit-inline-box;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+            }
+
+.p-event-detail__contents__leader__info__name {
+                    padding: 0 8px;
+                    line-height: 2.5;
+                    font-size: .813em;
+                }
+
+.p-event-detail__contents__entry__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__entry__list {
+                display: -webkit-inline-box;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+            }
+
+.p-event-detail__contents__entry__list__item {
+                    margin-right: 4px;
+                }
+
+.p-event-detail__contents__entry__list__text {
+                    line-height: 2.6;
+                    padding-left: 8px;
+                    font-size: .813em;
+                }
+
+.p-event-detail__contents__interest__heading {
+                padding: 18px 0 4px;
+                font-size: 0.713em;
+            }
+
+.p-event-detail__contents__interest__text {
+                margin: 0;
+                font-size: .813em;
+            }
+
+.p-event-detail__contents__active-button {
+            padding: 18px 0;
+        }
+
+.p-event-detail__contents__active-button__reserve {
+                padding-bottom: 12px;
+            }
+
+.p-event-detail .ohaco-a-button--iconButton.ohaco-a-button--large {
+        width: 70px;
+        height: 70px;
+    }
+
+.p-event-detail .ohaco-a-button--iconButton.ohaco-a-button--x-small {
+        width: 12px;
+        height: 12px;
+    }
+
+.p-event-detail .ohaco-a-modal__close {
+        top: 2px;
+        right: 4px;
+    }

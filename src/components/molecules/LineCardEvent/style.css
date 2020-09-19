@@ -1,0 +1,87 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.m-line-card-event > div {
+        padding-right: 20px;
+    }
+
+.m-line-card-event__datetime {
+        font-weight: 700;
+    }
+
+.m-line-card-event__datetime__month {
+            font-size: .813em;
+        }
+
+.m-line-card-event__datetime__day {
+            display: inline-block;
+            vertical-align: baseline;
+            font-size: 1.1em;
+        }
+
+.m-line-card-event__datetime__today {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.713em;
+        }
+
+.m-line-card-event__datetime__time {
+            font-size: .813em;
+            padding: 0 8px 0 4px;
+        }
+
+.m-line-card-event__datetime__open {
+            display: inline-block;
+            vertical-align: text-bottom;
+            margin-left: 4px;
+        }
+
+.m-line-card-event__datetime__open__icon-tag {
+                padding: 0 0.5em;
+            }
+
+.m-line-card-event__datetime__open__icon-tag__icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 16px;
+                }
+
+.m-line-card-event__datetime__open__icon-tag__text {
+                    display: inline-block;
+                    vertical-align: text-top;
+                    padding-right: 4px;
+                }
+
+.m-line-card-event__datetime__today__tag {
+                display: inline-block;
+                vertical-align: text-bottom;
+                padding: 0.1em 1em;
+            }
+
+.m-line-card-event__title {
+        padding: 2px 0;
+        font-weight: 700;
+        font-size: .913em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 84vw;
+    }
+
+.m-line-card-event__store {
+        font-size: .813em;
+    }

@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+/* =コア設定
+------------------------------ */
+
+:root {
+    /* font-size */
+
+    /* font-weight */
+
+    /* button size */
+
+    /* content width */
+
+    /* z-depth */
+}
+
+.o-reservation-reminder {
+    width: 88%;
+}
+
+.o-reservation-reminder-wrapper {
+        left: 4px;
+        z-index: 1600;
+    }
+
+.o-reservation-reminder__image {
+        text-align: center;
+        padding: 0 0 8px;
+    }
+
+.o-reservation-reminder__image__img {
+            width: 74px;
+            height: 45px;
+        }
+
+.o-reservation-reminder__note {
+        text-align: center;
+        font-size: .75em;
+        font-weight: 700;
+        margin: 0;
+    }
+
+.o-reservation-reminder__note__small {
+            font-size: .833em;
+            font-weight: normal;
+        }
+
+.o-reservation-reminder__actions {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 14px -4px 0;
+    }
+
+.o-reservation-reminder__actions__button {
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 33%;
+                    flex: 1 1 33%;
+            width: 33%;
+            height: 30px;
+            margin: 0px 4px;
+            padding: 0;
+        }
+
+.o-reservation-reminder__actions__button .ohaco-a-button__text {
+                font-size: .75em;
+            }
+
+.o-reservation-reminder__actions__button.ohaco-a-button {
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+            }
